@@ -1,0 +1,47 @@
+{
+    "method_1": {
+        "name": "Chart example",
+        "cmd": "python3 ./scripts/chart-example.py",
+        "desc": "This example returns a bar chart as output",
+        "additional_parameters": {
+            "schema": {
+                "title": "Additional information",
+                "type": "object",
+                "required": [
+                    "name",
+                    "age"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "title": "Name"
+                    },
+                    "age": {
+                        "type": "number",
+                        "title": "Age"
+                    }
+                }
+            },
+            "uiSchema": {
+                "age": {
+                    "ui:widget": "updown"
+                }
+            }
+        }
+    },
+    "method_2": {
+        "name": "HTML example",
+        "cmd": "python3 ./scripts/html-example.py",
+        "desc": "This example returns HTML code as output"
+    },
+    "method_3": {
+        "name": "Image example",
+        "cmd": "python3 ./scripts/image-example.py",
+        "desc": "This example returns a base64 image"
+    },
+    "method_4": {
+        "name": "Audio example",
+        "cmd": "python3 ./scripts/audio-example.py",
+        "desc": "This example returns a base64 audio"
+    }
+}

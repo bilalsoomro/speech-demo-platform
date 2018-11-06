@@ -1,0 +1,131 @@
+.rec-button {
+    width: 35px;
+    height: 35px;
+    font-size: 0;
+    background-color: red;
+    border: 0;
+    border-radius: 35px;
+    margin: 18px;
+    outline: none;
+}
+
+.Rec {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse { 
+    0% {
+        box-shadow: 0px 0px 5px 0px rgba(173,0,0,.3);
+    }
+    65% {
+        box-shadow: 0px 0px 5px 13px rgba(173,0,0,.3);
+    }
+    90% {
+        box-shadow: 0px 0px 5px 13px rgba(173,0,0,0);
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.audio-result {
+    width: 100%;
+}
+
+#logs {
+    clear: both;
+}
+
+.logs-layout {
+    display: none;
+}
+
+.log-labels {
+    padding-top: 20px;
+}
+
+.log-labels h2 {
+    float: left;
+}
+
+.log-labels button {
+    float: right;
+    margin: 0 5px;
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+.scrolling-wrapper-flexbox .card {
+    flex: 0 0 auto;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+#methods {
+    display: none;
+}
+
+.custom-title {
+    font-size: 1.5rem !important;
+    font-weight: initial !important;
+}
+
+#prog-bar {
+    display: none;
+}
+
+#sample-chart {
+    display: none;
+}
+
+/* Center the loader */
+/*https://www.w3schools.com/howto/howto_css_loader.asp*/
+#loader {
+    display: none;
+    z-index: 1;
+    margin: 0 auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
