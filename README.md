@@ -23,9 +23,9 @@ Accessible everywhere: Built as a HTTP service in PHP.
 Requirements: A web server with support for PHP.
 
 1. Wrap your system under one command call which takes at least two arguments:
-  * Output file (path to a text file which will be read and returned to user)
-  * Input file (path to WAV file of recorded speech)
-  * Any additional arguments your code needs (e.g. Claimed speaker ID for speaker verification)
+    * Output file (path to a text file which will be read and returned to user)
+    * Input file (path to WAV file of recorded speech)
+    * Any additional arguments your code needs (e.g. Claimed speaker ID for speaker verification)
 2. Place this directory somewhere visible to HTTP requests.
 3. Edit `scripts/methods.json` by adding a new analysis method along with command 
    to run your system for provided audio file (WAV)
