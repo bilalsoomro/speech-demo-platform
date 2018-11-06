@@ -42,7 +42,7 @@ This JSON structure defines list of available analysis methods with following st
 "method_#": {
         "name": "[Name shown on web page]",
         "cmd": "Command to be called",
-        "desc": "[Slightly longer description of the method"
+        "desc": "[Slightly longer description of the method",
         "additional_parameters": {
             ...
         }
