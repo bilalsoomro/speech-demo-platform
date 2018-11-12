@@ -8,6 +8,8 @@ Easy to add new systems for demonstration: Adding couple of lines to a single JS
 
 Accessible everywhere: Built as a HTTP service in PHP.
 
+(Here is a related ArXiV paper of this platform used in practice)[https://arxiv.org/abs/1811.03293]
+
 ## An example of what it does
 
 1) User loads up the page and records audio (16kHz PCM as WAV).
